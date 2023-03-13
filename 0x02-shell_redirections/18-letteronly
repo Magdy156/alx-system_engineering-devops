@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --invert-match "bin" /etc/ssh/sshd_config
+grep -v  "bin" /etc/ssh/sshd_config
