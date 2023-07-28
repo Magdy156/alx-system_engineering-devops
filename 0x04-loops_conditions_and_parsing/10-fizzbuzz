@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# FizzBuzz
+
+c=1
+while [ $c -ne 101 ]
+do
+	if (( c % 15 == 0 ))
+	then
+		echo "FizzBuzz"
+	elif (( c % 3 == 0 ))
+	then
+		echo "Fizz"
+	elif (( c % 5 == 0 ))
+	then
+		echo "Buzz"
+	else
+		echo "$c"
+	fi
+	(( c++ ))
+done
