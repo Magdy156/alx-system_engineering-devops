@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# display clock
+
+c=0
+while [ $c -le 20 ]
+do
+	echo "Hour: $c"
+	min=1
+	while [ $min -le 59 ]
+	do
+		echo "$min"
+		(( min++ ))
+	done
+	(( c++ ))
+done
