@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#  ls command by particular way
+
+list='ls'
+for f in $list;
+do
+	eval "$f" | cut -d '-' -f2
+done
