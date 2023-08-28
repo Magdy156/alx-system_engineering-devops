@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-[simple web stack](https://drive.google.com/file/d/1e1idb5HJA54wI5FNwuJWOMqZAgxIBdXG/view?usp=sharing)
+![simple web stack](https://drive.google.com/file/d/1e1idb5HJA54wI5FNwuJWOMqZAgxIBdXG/view?usp=sharing)
 
 ## Description
 
