@@ -1,6 +1,6 @@
 # Distributed Web Infrastructure
 
-![distributed web infrastructure](https://drive.google.com/file/d/1aXiH8nH5vzibwu1u98XEPpeX9eNzPJlq/view?usp=sharing)
+[distributed web infrastructure](https://drive.google.com/file/d/1aXiH8nH5vzibwu1u98XEPpeX9eNzPJlq/view?usp=sharing)
 
 ## Description
 

@@ -1,6 +1,6 @@
 # Secured and Monitored Web Infrastructure
 
-![secured and monitored infrastructure](https://drive.google.com/file/d/1TWFZ0QPwPLNTblY0eE56_vicd4-tmr6o/view?usp=sharing)
+[secured and monitored infrastructure](https://drive.google.com/file/d/1TWFZ0QPwPLNTblY0eE56_vicd4-tmr6o/view?usp=sharing)
 
 ## Description
 
