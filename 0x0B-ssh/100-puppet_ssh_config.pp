@@ -1,11 +1,10 @@
 # Puppet script to create ssh config file
 
-file_line { '/etc/ssh/ssh_config':
-  ensure => 'present',
-  line   => '    PasswordAuthentication no',
-}
-
-file_line { '/etc/ssh/ssh_config':
-  ensure => 'present',
-  line   => '    IdentityFile ~/.ssh/school',
+file { '/etc/ssh/ssh_config':
+  ensure  => present,
+  content => '
+Host your_server_ip
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
+',
 }
