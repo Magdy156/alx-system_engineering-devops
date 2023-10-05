@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configures Nginx server to listen port 80
+sudo sed -i 's/^\s*listen\s*.*$/listen 80;/g' /etc/nginx/nginx.conf
+sudo service nginx restart
