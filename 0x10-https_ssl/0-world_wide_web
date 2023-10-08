@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Displays Imformation about subdomains
+
+subdomains=( "www" "lb-01" "web-01" "web-02" )
+
+domainInfo () {
+    dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk -v s="$2" 'BEGIN { FS = " " } ; { print "The subdomain " s " is a " $4 " record and points to " $5 }'
+}
+
+if [ "$#" -eq 1 ]; then
+    domain="$1"
+    for i in "${subdomains[@]}"
+    do
+	domainInfo "$domain" "$i" 
+	done
+elif [ "$#" -eq 2 ]; then
+    domainInfo "$1" "$2"
+fi
