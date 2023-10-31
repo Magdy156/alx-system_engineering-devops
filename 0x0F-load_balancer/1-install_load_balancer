@@ -10,7 +10,7 @@ echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/original.cfg
 
 echo "
-frontend front
+frontend magdyhamdy.tech
         bind *:80
         default_backend back
 backend back
