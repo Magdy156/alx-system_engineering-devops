@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 # Install the load balanecer
 
 sudo apt-get install --no-install-recommends software-properties-common
