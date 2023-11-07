@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Task 1 Module"""
+import requests
 
 
 def top_ten(subreddit):
     """func that get thtop ten title of posts on Reddit"""
-    import requests
 
     subInfo = requests.get(
         f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10",
