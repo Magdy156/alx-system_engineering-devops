@@ -3,7 +3,6 @@
 import requests
 
 
-
 def recurse(subreddit, hot_list=[], count=0, after=None):
     """func that get Hot posts"""
 
