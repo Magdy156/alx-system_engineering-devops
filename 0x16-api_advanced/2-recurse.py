@@ -1,17 +1,18 @@
 #!/usr/bin/python3
 """Task 2 Mosule"""
+import requests
+
 
 
 def recurse(subreddit, hot_list=[], count=0, after=None):
-    """Hot posts"""
-    import requests
+    """func that get Hot posts"""
 
     subInfo = requests.get(
         f"https://www.reddit.com/r/{subreddit}/hot.json",
         params={"count": count, "after": after},
         headers={"User-Agent": "My-User-Agent"},
         allow_redirects=False)
-    if subInfo.status_code >= 400:
+    if subInfo.status_code >= 300:
         return None
 
     hot = hot_list + [
