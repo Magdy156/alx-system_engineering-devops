@@ -1,9 +1,6 @@
 # Postmortem Report
 
-<p align="center">
-<img src="https://drive.google.com/file/d/1WG9oBbmlBAy2oFD_gLg95tW6RjHR4Lib/view?usp=sharing" width=100% height=100% />
-</p>
-
+### [Diagram](https://drive.google.com/file/d/1WG9oBbmlBAy2oFD_gLg95tW6RjHR4Lib/view?usp=sharin)
 
 #### Issue Summary:
 
